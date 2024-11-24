@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30BD9C7D2CF2EBB900B641FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BD9C7C2CF2EBB900B641FD /* main.swift */; };
+		30BD9C842CF2ED7B00B641FD /* Leetcode_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BD9C832CF2ED7B00B641FD /* Leetcode_1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		30BD9C792CF2EBB900B641FD /* LeetCode-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BD9C7C2CF2EBB900B641FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		30BD9C832CF2ED7B00B641FD /* Leetcode_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				30BD9C7C2CF2EBB900B641FD /* main.swift */,
+				30BD9C832CF2ED7B00B641FD /* Leetcode_1.swift */,
 			);
 			path = "LeetCode-swift";
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BD9C842CF2ED7B00B641FD /* Leetcode_1.swift in Sources */,
 				30BD9C7D2CF2EBB900B641FD /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +252,7 @@
 		30BD9C812CF2EBB900B641FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8QK52H8K9N;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -259,6 +264,7 @@
 		30BD9C822CF2EBB900B641FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8QK52H8K9N;
 				ENABLE_HARDENED_RUNTIME = YES;
