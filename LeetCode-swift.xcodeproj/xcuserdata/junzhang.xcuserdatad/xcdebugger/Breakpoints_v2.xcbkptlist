@@ -36,5 +36,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B32CD821-21BC-4B43-ABDA-C4EB84D49A49"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCode-swift/Leetcode_4.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "getKthElement(_:_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B32CD821-21BC-4B43-ABDA-C4EB84D49A49 - 343f29a45e563284"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeetCode_swift.Leetcode_4.getKthElement(Swift.Array&lt;Swift.Int&gt;, Swift.Array&lt;Swift.Int&gt;, Swift.Int) -&gt; Swift.Double"
+                  moduleName = "LeetCode-swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junzhang/Documents/workspace/xcode/LeetCode-swift/LeetCode-swift/Leetcode_4.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "B32CD821-21BC-4B43-ABDA-C4EB84D49A49 - 343f29a45e5632db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeetCode_swift.Leetcode_4.getKthElement(Swift.Array&lt;Swift.Int&gt;, Swift.Array&lt;Swift.Int&gt;, Swift.Int) -&gt; Swift.Double"
+                  moduleName = "LeetCode-swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junzhang/Documents/workspace/xcode/LeetCode-swift/LeetCode-swift/Leetcode_4.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "216">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

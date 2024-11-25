@@ -98,6 +98,53 @@ class Leetcode_4 {
     通过二分查找来优化log(m+n)，
      */
     func findMedianSortedArrays1(_ nums1: [Int], _ nums2: [Int]) -> Double {
-        return Double(0);
+        let m = nums1.count;
+        let n = nums2.count;
+        if (m+n)%2 != 0 {
+            //第k小是从1开始计数，例如第1小，就是排序后的第0个元素。例如m=2,n=1,中午数为第2小的，即第1个元素
+            return getKthElement(nums1, nums2, (m+n)/2 + 1);
+        } else {
+            return (getKthElement(nums1, nums2, (m+n)/2 - 1 + 1) + getKthElement(nums1, nums2, (m+n)/2 + 1))/Double(2);
+        }
+    }
+    
+    func getKthElement(_ nums1: [Int], _ nums2: [Int], _ k: Int) -> Double {
+        let m = nums1.count;
+        let n = nums2.count;
+        
+        var idx1 = 0;
+        var idx2 = 0;
+        var tmpK = k; //目前还剩余的，没有确定的元素数量
+        while true {
+            // nums1数组的元素已经被确定完
+            if idx1 == m {
+                return Double(nums2[idx2 + tmpK - 1]);
+            }
+            // nums2数组的元素已经被确定完
+            if idx2 == n {
+                return Double(nums1[idx1 + tmpK - 1]);
+            }
+            // 最后一个元素，取最小的
+            if tmpK == 1 {
+                return Double(min(nums1[idx1],nums2[idx2]));
+            }
+            
+            // 取 nums1的 k/2 - 1 和 nums2 的k/2 - 1个元素进行对比，可以确定前k-2个元素。若nums1[k/2-1] < nums2[k/2-1],则
+            // nums1的前k/2-1个元素使可以确定的，k值缩小 half个。
+            // idx1表示数组1已经被确认加入目标数组的最后一个元素的位置，idx2是数组2已经确认被加入目标数组的最后一个元素的位置
+            // 因此要确定nums1这一轮有多少元素被加入目标数组，只需要 newIndex1 - idx1 + 1即可
+            let half = tmpK/2;
+            let newIndex1 = min(idx1 + half, m) - 1;
+            let newIndex2 = min(idx2 + half, n) - 1;
+            let p1 = nums1[newIndex1];
+            let p2 = nums2[newIndex2];
+            if p1 <= p2 {
+                tmpK -= (newIndex1 - idx1 + 1);
+                idx1 = newIndex1 + 1;
+            } else {
+                tmpK -= (newIndex2 - idx2 + 1);
+                idx2 = newIndex2 + 1;
+            }
+        }
     }
 }
