@@ -7,10 +7,12 @@
 
 import Foundation
 
-let s = Leetcode_283();
-var item = [0,1,0,3,12];
-s.moveZeroes(&item);
-print(item);
+let s = Leetcode_11();
+print(s.maxArea([1,8,6,2,5,4,8,3,7]));
+//let s = Leetcode_283();
+//var item = [0,1,0,3,12];
+//s.moveZeroes(&item);
+//print(item);
 
 //let s = Leetcode_128();
 //print(s.longestConsecutive([100,4,200,1,3,2]));
