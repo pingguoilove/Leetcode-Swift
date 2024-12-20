@@ -18,6 +18,7 @@
 		30BD9C942D15117500B641FD /* Leetcode_128.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BD9C932D15117500B641FD /* Leetcode_128.swift */; };
 		30BD9C962D15191D00B641FD /* Leetcode_283.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BD9C952D15191D00B641FD /* Leetcode_283.swift */; };
 		30BD9C982D15230B00B641FD /* Leetcode_11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BD9C972D15230B00B641FD /* Leetcode_11.swift */; };
+		30BD9C9A2D1530FC00B641FD /* Leetcode_15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BD9C992D1530FC00B641FD /* Leetcode_15.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		30BD9C932D15117500B641FD /* Leetcode_128.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_128.swift; sourceTree = "<group>"; };
 		30BD9C952D15191D00B641FD /* Leetcode_283.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_283.swift; sourceTree = "<group>"; };
 		30BD9C972D15230B00B641FD /* Leetcode_11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_11.swift; sourceTree = "<group>"; };
+		30BD9C992D1530FC00B641FD /* Leetcode_15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_15.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				30BD9C932D15117500B641FD /* Leetcode_128.swift */,
 				30BD9C952D15191D00B641FD /* Leetcode_283.swift */,
 				30BD9C972D15230B00B641FD /* Leetcode_11.swift */,
+				30BD9C992D1530FC00B641FD /* Leetcode_15.swift */,
 			);
 			path = "LeetCode-swift";
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				30BD9C8C2CF36FB200B641FD /* Leetcode_4.swift in Sources */,
 				30BD9C962D15191D00B641FD /* Leetcode_283.swift in Sources */,
 				30BD9C942D15117500B641FD /* Leetcode_128.swift in Sources */,
+				30BD9C9A2D1530FC00B641FD /* Leetcode_15.swift in Sources */,
 				30BD9C882CF2FACD00B641FD /* Leetcode_3.swift in Sources */,
 				30BD9C922D1505D300B641FD /* Leetcode_49.swift in Sources */,
 				30BD9C8E2CF40E7D00B641FD /* Leetcode_5.swift in Sources */,

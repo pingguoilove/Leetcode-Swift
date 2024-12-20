@@ -7,8 +7,11 @@
 
 import Foundation
 
-let s = Leetcode_11();
-print(s.maxArea([1,8,6,2,5,4,8,3,7]));
+let s = Leetcode_15();
+print(s.threeSum([-1,0,1,2,-1,-4]));
+//let s = Leetcode_11();
+//print(s.maxArea([1,8,6,2,5,4,8,3,7]));
+
 //let s = Leetcode_283();
 //var item = [0,1,0,3,12];
 //s.moveZeroes(&item);
