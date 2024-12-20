@@ -72,4 +72,7 @@ class Leetcode_5 {
      方法二：动态规划法
      f(i,j)表示从第i个位置到第j个位置是否是回文串，若f(i-1,j+1)是回文串，且s[i-1] == s[j+1),则f(i,j)也是回文串
      */
+    func longestPalindrome1(_ s: String) -> String {
+        return "";
+    }
 }

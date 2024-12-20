@@ -7,9 +7,12 @@
 
 import Foundation
 
-let s = Leetcode_5();
-print(s.longestPalindrome("babad"));
-print(s.longestPalindrome("cbbd"));
+let s = Leetcode_49();
+print(s.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
+//let s = Leetcode_5();
+//print(s.longestPalindrome("babad"));
+//print(s.longestPalindrome("cbbd"));
+
 //let s = Leetcode_4();
 //print(s.findMedianSortedArrays1([1,3], [2]));
 //print(s.findMedianSortedArrays1([1,2], [3,4]));
