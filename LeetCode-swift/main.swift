@@ -7,9 +7,15 @@
 
 import Foundation
 
-let s = Leetcode_128();
-print(s.longestConsecutive([100,4,200,1,3,2]));
-print(s.longestConsecutive([0,3,7,2,5,8,4,6,0,1]))
+let s = Leetcode_283();
+var item = [0,1,0,3,12];
+s.moveZeroes(&item);
+print(item);
+
+//let s = Leetcode_128();
+//print(s.longestConsecutive([100,4,200,1,3,2]));
+//print(s.longestConsecutive([0,3,7,2,5,8,4,6,0,1]))
+
 //let s = Leetcode_49();
 //print(s.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
 
